@@ -14,3 +14,17 @@ class History():
     
     def is_empty(self):
         return len(self.history) == 0
+    
+
+
+history = History()
+
+history.add_page('page 1')
+
+history.add_page('page 2')
+
+print(history.remove_page())
+
+print(history.is_empty())
+
+print(history.count_pages())
